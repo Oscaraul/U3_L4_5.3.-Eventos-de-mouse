@@ -1,15 +1,11 @@
 function cambioFotoAstronauta() {
-	document.getElementByid('astronauta').style="width:50%"
+	document.getElementById('astronauta').style="width:50%"
 }
 
 function cambioFotoExtraterrestre() {
-	document.getElementByid('extraterrestre').style="-webkit-filter: blur(5px); filter:blur(5px);"
+	document.getElementById('extraterrestre').style="-webkit-filter: blur(5px); filter:blur(5px);"
 }
 
 function cambioFOtoPlaneta() {
-	document.getElementByid('planetas').style="filter: hue-rotate(90deg;)"
-}
-
-function cambioFotoNAve() {
-	document.getElementByid('nave_espacial').style="filter: sepia(100%); -webkit-filter: sepia(100%);"
+	document.getElementById('planetas').style="filter: hue-rotate(90deg;)"
 }
